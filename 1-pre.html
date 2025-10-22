@@ -1,0 +1,88 @@
+<style>
+					@font-face {
+					  font-family: 'Galaxie Polaris', 'GalaxiePolarisCondensed', 'GPC';
+					  font-weight:700; 
+					  font-style:normal; 
+					  font-display: swap;
+					  src:url('https://static.nd.edu/fonts/gp-min/gpc-bold.woff2') format('woff2'),
+						  url('https://static.nd.edu/fonts/gp-min/gpc-bold.woff') format('woff'),
+						  url('https://static.nd.edu/fonts/gp-min/gpc-bold.ttf') format('truetype');
+					}
+					*,body{
+					  font-family: 'Galaxie Polaris', Arial, sans-serif;
+					}
+					</style>
+<p id="mcetoc_1h3i7t2u36"><strong><span style="color: #33cccc; font-size: 12pt;">Issue</span></strong></p>
+<p><span style="font-family: 'Galaxie Polaris', arial, helvetica, sans-serif; font-size: 10pt;">Need to connect to the VPN to access restricted on-campus systems</span></p>
+<p id="mcetoc_1h3i7t2u37"><strong><span style="color: #33cccc; font-size: 12pt;">Resolution</span></strong></p>
+<div class="mce-toc">
+<h2>Table of Contents</h2>
+<ul>
+<li><a href="#mcetoc_1h3a4vn6b2">Obtaining the Cisco Secure Client (new installation)</a>
+<ul>
+<li><a href="#mcetoc_1i2s1a1fa2">Installing Cisco Secure Client for Windows</a></li>
+<li><a href="#mcetoc_1h3i7t2u48">Installing Cisco Secure Client for MacOS</a></li>
+</ul>
+</li>
+<li><a href="#mcetoc_1h3a5ipci3r">Connecting to the VPN (Cisco Secure Client)</a></li>
+<li><a href="#mcetoc_1h46t35o62">Using a Secure Key (Yubikey) for Two-Step Authentication</a></li>
+</ul>
+</div>
+<h2 id="mcetoc_1h3a4vn6b2">Obtaining the Cisco Secure Client (new installation)</h2>
+<p><span style="font-family: 'Galaxie Polaris', arial, helvetica, sans-serif; font-size: 10pt;">The <a title="VPN (Virtual Private Network)" href="/kb_view.do?sysparm_article=KB0013218" target="_blank" rel="noopener noreferrer nofollow">VPN (Virtual Private Network)</a> is a network access service that permits remote systems to obtain a campus IP address and access the ND network as if they were locally connected. Certain <a title="restricted systems" href="/kb_view.do?sysparm_article=KB0011306" target="_blank" rel="noopener noreferrer nofollow">restricted systems</a> require a campus IP address for access.</span></p>
+<p><span style="font-family: 'Galaxie Polaris', arial, helvetica, sans-serif; font-size: 10pt;">Cisco Secure Client is the recommended method to access the VPN. To install Cisco Secure Client:</span></p>
+<ul>
+<li style="font-size: 10pt;"><span style="font-family: 'Galaxie Polaris', arial, helvetica, sans-serif; font-size: 10pt;">For Windows or Mac OSX machines the software can be downloaded from <a title="OIT Software Downloads" href="https://oit.nd.edu/downloads/vpn---cisco-secure-client/" target="_blank" rel="noopener noreferrer nofollow">OIT Software Downloads</a></span><br>
+<ul>
+<li style="font-size: 10pt;"><span style="font-family: 'Galaxie Polaris', arial, helvetica, sans-serif; font-size: 10pt;">For university-owned and managed systems it can be installed from <a title="Software Center" href="https://nd.service-now.com/nd_portal?id=kb_article_view&amp;sysparm_article=KB0012855" target="_blank" rel="noopener noreferrer nofollow">Software Center</a> or <a title="Self-Service" href="https://nd.service-now.com/nd_portal?id=kb_article_view&amp;sysparm_article=KB0018598" target="_blank" rel="noopener noreferrer nofollow">Self-Service</a></span></li>
+</ul>
+</li>
+<li style="font-size: 10pt;"><span style="font-family: 'Galaxie Polaris', arial, helvetica, sans-serif; font-size: 10pt;">For Android devices, the software can be downloaded from the Google Play store <a title="here" href="https://play.google.com/store/apps/details?id=com.cisco.anyconnect.vpn.android.avf" target="_blank" rel="noopener noreferrer nofollow">here</a></span></li>
+<li style="font-size: 10pt;"><span style="font-family: 'Galaxie Polaris', arial, helvetica, sans-serif; font-size: 10pt;">For iOS devices, the software can be downloaded from the App Store <a href="https://apps.apple.com/us/app/cisco-secure-client/id1135064690">here</a></span></li>
+</ul>
+<hr>
+<p><span style="font-family: 'Galaxie Polaris', arial, helvetica, sans-serif; font-size: 10pt;"><strong>Note:</strong> Chrome OS, Windows RT and Windows Mobile do not support the VPN implementation used by Notre Dame at this time, which will limit the ability to access ND services from remote locations while using a Chromebook, other Chrome OS devices, Windows RT devices, and Windows Mobile phones. See <a href="https://support.google.com/chromebook/answer/1282338?hl=en" target="_blank" rel="noopener noreferrer nofollow">Google's support page</a> for additional information on supported VPN implementations.</span></p>
+<hr>
+<h3 id="mcetoc_1i2s1a1fa2">Installing Cisco Secure Client for Windows</h3>
+<p><span style="font-size: 10pt;">If you downloaded the installer from OIT Software Downloads, follow these instructions to install it:</span></p>
+<ol style="list-style-position: inside;">
+<li style="font-size: 10pt;"><span style="font-size: 10pt;">Locate the file you downloaded and double-click to launch it</span></li>
+<li style="font-size: 10pt;"><span style="font-size: 10pt;">In the welcome screen that appears, click <strong>Next</strong><br><img style="align: baseline;" title="" src="sys_attachment.do?sys_id=a3d67b26c37b261033dc78fdd40131ee" alt="" width="300" align="baseline" border="" hspace="" vspace=""><br><br></span></li>
+<li style="font-size: 10pt;"><span style="font-size: 10pt;">If prompted to Accept the license agreement, do so and click <strong>Next</strong><br><img style="align: baseline;" title="" src="sys_attachment.do?sys_id=abd67b26c37b261033dc78fdd40131f1" alt="" width="300" align="baseline" border="" hspace="" vspace=""><br><br></span></li>
+<li style="font-size: 10pt;"><span style="font-size: 10pt;">Confirm that you wish to proceed by clicking <strong>Install</strong><br><img style="align: baseline;" title="" src="sys_attachment.do?sys_id=27d67b26c37b261033dc78fdd40131f5" alt="" width="300" align="baseline" border="" hspace="" vspace=""><br><br></span></li>
+<li style="font-size: 10pt;"><span style="font-size: 10pt;">If you see a message that Cisco AnyConnect is currently in use, check the box to Automatically close applications and click <strong>OK</strong><br><img style="align: baseline;" title="" src="sys_attachment.do?sys_id=63d67b26c37b261033dc78fdd40131f7" alt="" width="300" align="baseline" border="" hspace="" vspace=""><br><br></span></li>
+<li style="font-size: 10pt;"><span style="font-size: 10pt;">When prompted, click <strong>Finish</strong><br><img style="align: baseline;" title="" src="sys_attachment.do?sys_id=e7d67b26c37b261033dc78fdd40131f3" alt="" width="300" align="baseline" border="" hspace="" vspace=""><br><br></span></li>
+<li style="font-size: 10pt;"><span style="font-size: 10pt;">You can now launch the new version, called Cisco Security Client.&nbsp; Follow the instructions to connect based on your current affiliation with ND.</span></li>
+</ol>
+<hr>
+<h3>&nbsp;</h3>
+<h3 id="mcetoc_1h3i7t2u48">Installing Cisco Secure Client for MacOS</h3>
+<p><span style="font-size: 10pt;">If you downloaded the installer from OIT Software Downloads, follow these instructions to install it:</span></p>
+<ol style="list-style-position: inside;">
+<li style="font-size: 10pt;">Locate the file you downloaded and double-click to launch it.&nbsp;</li>
+<li style="font-size: 10pt;">Double-click the .pkg from Cisco Secure Client.<br><img style="align: baseline;" src="sys_attachment.do?sys_id=1fd67b26c37b261033dc78fdd401318f" width="300" height=" " align="baseline"><br><br></li>
+<li style="font-size: 10pt;">In the welcome screen that appears, click <strong>Continue.<br><img style="align: baseline;" src="sys_attachment.do?sys_id=9fd67b26c37b261033dc78fdd40131a2" width="300" height=" " align="baseline"><br></strong></li>
+<li style="font-size: 10pt;"><span style="font-size: 10pt;">Click</span><strong><span style="font-size: 10pt;"> Continue,</span></strong><span style="font-size: 10pt;"> then <strong>Agree </strong></span><span style="font-size: 10pt;">on the&nbsp;<strong>Software License</strong> Agreement prompts.</span><strong><span style="font-size: 10pt;"><br><img style="align: baseline;" src="sys_attachment.do?sys_id=1bd67b26c37b261033dc78fdd40131a6" width="300" height=" " align="baseline"><br><br></span></strong></li>
+<li style="font-size: 10pt;"><span style="font-size: 10pt;">Confirm that you wish to proceed by clicking <strong>I</strong></span><strong><span style="font-size: 10pt;"><strong>ns</strong>tall<br></span></strong><strong><span style="font-size: 10pt;"><img style="align: baseline;" src="sys_attachment.do?sys_id=dfd67b26c37b261033dc78fdd40131ab" width="300" height=" " align="baseline"><br><br></span></strong></li>
+<li style="font-size: 10pt;"><span style="font-size: 10pt;">Enter your Mac password when prompted.&nbsp;<br><strong><img style="align: baseline;" src="sys_attachment.do?sys_id=23d67b26c37b261033dc78fdd40131bc" width="200" height=" " align="baseline"><br><br></strong></span></li>
+<li style="font-size: 10pt;"><span style="font-size: 10pt;">Click<strong> Allow </strong>on the additional prompt for <strong>Cisco Secure Client - Socket Filter.</strong>&nbsp;<strong><br><img style="align: baseline;" src="sys_attachment.do?sys_id=e7d67b26c37b261033dc78fdd40131c1" width="200" height=" " align="baseline"><br></strong><br></span></li>
+<li style="font-size: 10pt;"><span style="font-size: 10pt;">When prompted, click </span><strong><span style="font-size: 10pt;">Close.&nbsp;<br><img style="align: baseline;" src="sys_attachment.do?sys_id=63d67b26c37b261033dc78fdd40131c5" width="300" height=" " align="baseline"><br><br></span></strong></li>
+<li style="font-size: 10pt;"><strong>Cisco Secure Client</strong> is added to the menu bar at the top of your Mac. Click on the icon, then Connect. <span style="font-size: 10pt;">Follow the instructions to connect based on your current affiliation with ND.<br><img style="align: baseline;" src="sys_attachment.do?sys_id=a7d67b26c37b261033dc78fdd40131dc" width="300" height=" " align="baseline"></span></li>
+</ol>
+<p style="font-size: 10pt;">&nbsp;</p>
+<h2 id="mcetoc_1h3a5ipci3r">Connecting to the VPN (Cisco Secure Client)</h2>
+<p><span style="font-family: 'Galaxie Polaris', arial, helvetica, sans-serif; font-size: 10pt;">After installing Cisco Secure Client, you can connect to the VPN by launching the program and entering the server address</span></p>
+<p style="padding-left: 40px;"><span style="font-family: 'Galaxie Polaris', arial, helvetica, sans-serif; font-size: 10pt;"><strong>Mac</strong>: Open the program by going to Finder, Applications, Cisco, Cisco Secure Client</span></p>
+<p style="padding-left: 40px;"><span style="font-family: 'Galaxie Polaris', arial, helvetica, sans-serif; font-size: 10pt;"><strong>Windows</strong>:&nbsp; Open the program by going to Start, Cisco, Cisco Secure Client</span></p>
+<ul style="list-style-position: inside;">
+<li style="font-family: 'Galaxie Polaris', arial, helvetica, sans-serif; font-size: 10pt;">If you are<strong> faculty or staff</strong> use the address -<strong> vpnaccess.nd.edu&nbsp;</strong></li>
+<li style="font-family: 'Galaxie Polaris', arial, helvetica, sans-serif; font-size: 10pt;">If you are a <strong>student</strong> use the address -<strong> vpnaccess.nd.edu/go</strong></li>
+</ul>
+<p><span style="font-family: 'Galaxie Polaris', arial, helvetica, sans-serif; font-size: 10pt;">Then select&nbsp;<strong>Connect</strong> and respond to the login prompts that appear. <strong>Accept</strong> when prompted to complete the connection.&nbsp;</span></p>
+<p><img src="sys_attachment.do?sys_id=a3d67b26c37b261033dc78fdd40131d5" width="300" height=" " align="baseline"></p>
+<p><img title="" src="sys_attachment.do?sys_id=e3d67b26c37b261033dc78fdd40131de" alt="" width="300" height=" " align="baseline" border="" hspace="" vspace=""></p>
+<p>&nbsp;</p>
+<h2 id="mcetoc_1h46t35o62">Using a Secure Key (Yubikey) for Two-Step Authentication</h2>
+<p><span style="font-size: 10pt; font-family: 'Galaxie Polaris', arial, helvetica, sans-serif;">The VPN client uses it's own browser for authentication and may not work with a Yubikey, particularly on Macintosh computers. If you are experiencing issues while using YubiKey when connecting to the vpn, please upgrade to Cisco Secure Client version 5.0.01242 or newer.</span></p>
+<p>&nbsp;</p>
+
